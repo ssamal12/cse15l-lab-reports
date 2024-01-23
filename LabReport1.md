@@ -9,7 +9,7 @@ Working Directory: `/home/lecture1`
 
 ![Image](cd_ss.png)
 
-Output Reasoning: `cd` with no arguments takes you out of the current directory one step lower, so in this situation from inside the lecture1 directory it goes to the home directory. 
+Output Reasoning: `cd` with no arguments takes you out of the current directory one step lower, so in this situation from inside the `lecture1` directory it goes to the `home` directory. 
 
 **cd with directory arguments**
 
@@ -79,7 +79,7 @@ Working Directory: `/home/lecture1`
 
 ![Image](cat_file.png)
 
-Ouput Reasoning: The contents/code of the file Hello.java is outputted as the `cat` command reads the file and outputs it. 
+Ouput Reasoning: The contents/code of the file `Hello.java` is outputted as the `cat` command reads the file and outputs it. 
 
 
 

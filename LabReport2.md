@@ -86,9 +86,19 @@ The `handleRequest` method is called, which then calls the `printConversation` m
 ## Part 2
 
 **Screenshot of Absolute Path to Private Key**
+![Image](ssh-keygen.png)
+![Image](Lab2PrivateKeyPath.png)
+
 
 
 **Screeenshot of Absolute Path to Public Key**
+![Image](ssh-keygen.png)
+![Image](Lab2PublicKeyPath.png)
 
 
 **Screenshot of Logging Into ieng Account Without a Password**
+![Image](LoginWithoutPassword.png)
+
+
+## Part 3
+I did not know that you could use linux commands to start a server, and utilize a account in a system to make a website public to people within the system. Furthermore, I did not realize that I could pass arguments into code from the URL. Additionally, I did not know how webservers requires unique ports to use and that all websites operate on ports, which is simply not always shown. 

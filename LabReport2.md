@@ -82,13 +82,11 @@ The `handleRequest` method is called, which then calls the `printConversation` m
 ## Part 2
 
 **Screenshot of Absolute Path to Private Key**
-![Image](ssh-keygen.png)
 ![Image](Lab2PrivateKeyPath.png)
 
 
 
 **Screeenshot of Absolute Path to Public Key**
-![Image](ssh-keygen.png)
 ![Image](Lab2PublicKeyPath.png)
 
 

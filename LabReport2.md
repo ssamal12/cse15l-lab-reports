@@ -65,21 +65,17 @@ class Handler implements URLHandler {
 **Screenshot Using `/add-message`**
 ![Image](Lab2test1.png)
 
-**Screenshot of Results**
 
-![Image](Lab2result1.png)
 
-The `handleRequest` method is called, which then calls the `printConversation` method. The relevant argument to the `handleRequest` method is the `URI url`. The `printConversation` mehtod has no arguments. The relevant fields for both methods is the `user` arraylist and the `message` arraylist. They are changed, as they go from empty arraylists to the `user` arraylist going from an empty arraylist to having a string element of "sanat". The `message` arraylist goes from empty to including an element: "hey there". 
+The `handleRequest` method is called, which then calls the `printConversation` method. The relevant argument to the `handleRequest` method is the `URI url`. The `printConversation` mehtod has no arguments. The relevant fields for the class is the `user` arraylist and the `message` arraylist. They are changed, as they go from empty arraylists to the `user` arraylist going from an empty arraylist to having a string element of "sanat". The `message` arraylist goes from empty to including an element: "hey there". 
 
 
 **Screenshot Using `/add-message` Again**
 ![Image](Lab2test2.png)
 
-**Screenshot of Results**
 
-![Image](Lab2result2.png)
 
-The `handleRequest` method is called, which then calls the `printConversation` method. The relevant argument to the `handleRequest` method is the `URI url`. The `printConversation` mehtod has no arguments. The relevant fields for both methods is the `user` arraylist and the `message` arraylist. They are changed. The `user` arraylist going from having element "sanat" to having two string elements of "sanat" and "Sam". The `message` arraylist goes an element: "hey there" to having "hey there" and "howdy.
+The `handleRequest` method is called, which then calls the `printConversation` method. The relevant argument to the `handleRequest` method is the `URI url`. The `printConversation` mehtod has no arguments. The relevant fields for the class is the `user` arraylist and the `message` arraylist. They are changed. The `user` arraylist going from having element "sanat" to having two string elements of "sanat" and "Sam". The `message` arraylist goes an element: "hey there" to having "hey there" and "howdy.
 
 
 

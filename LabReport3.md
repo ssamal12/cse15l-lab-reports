@@ -21,6 +21,7 @@
 ```
 
 3. The symptom, as the output of running the tests
+
 ```
 JUnit version 4.13.2
 .E.

@@ -7,7 +7,7 @@ Logs into the server at port 201
 
 ## Step 5: Clone your fork of the repository from your Github account (using the SSH URL)
 ![Image](Lab7_Step5.png)
-Keys Pressed: `git <space> clone  <space> ssh <command + c> <command + v> <enter>`
+Keys Pressed: `git <space> clone  <space> ssh <space> <command + c> <command + v> <enter>`
 Clones the repository after copying the url link from github and placing it in the terminal
 
 ## Step 6: Run the tests, demonstrating that they fail

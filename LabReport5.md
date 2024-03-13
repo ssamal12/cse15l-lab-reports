@@ -3,6 +3,8 @@
 ## Part 1
 Anonymous Student:
 Hey, I was debugging this code through vim, however I can't seem to figure out the issue. It looks like it is timing out from taking too long, but I don't understand why. Could you help me figure out what is wrong. 
+
+
 ![Image](testFail.png)
 
 
@@ -11,12 +13,16 @@ Often times when the code is taking too long the issue is that you have an infin
 
 Anonymous Student: 
 Hey, thank you so much. You were right turns out there was na infinite loop. On one of the while loops set to when the indez is less than the size of an array, the index was not being incremented, setting it to loop endlessly. 
+
+
 ![Image](testSuccess.png)
 
 
 
 
 The file & directory structure needed
+
+
 ![Image](fileStructure.png)
 
 
@@ -108,10 +114,13 @@ java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnit
 ```
 
 
-The full command line (or lines) you ran to trigger the bug
+The full command line (or lines) you ran to trigger the bug:
+
 `bash test.sh`
 
-A description of what to edit to fix the bug
+A description of what to edit to fix the bug:
+
+
 You go into the ListExamples.java file through vim, and on the index1 loop, you add index1 += 1, so that it increments for the loop to end. 
 Hence you change this: 
 ```

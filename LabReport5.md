@@ -12,7 +12,7 @@ TA:
 Often times when the code is taking too long the issue is that you have an infinite loop somewhere, so I reccomend that you look at your loops and see if they are ending. 
 
 Anonymous Student: 
-Hey, thank you so much. You were right turns out there was na infinite loop. On one of the while loops set to when the indez is less than the size of an array, the index was not being incremented, setting it to loop endlessly. 
+Hey, thank you so much. You were right turns out there was an infinite loop. On one of the while loops set to when the index is less than the size of an array, the index was not being incremented, setting it to loop endlessly. 
 
 
 ![Image](testSuccess.png)
